@@ -46,7 +46,7 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = 'PYB Nano 开发板快速指南'
+project = 'PYB Nano DemoBoard QuickStart'
 copyright = '2016, ImHori'
 author = 'ImHori'
 
@@ -127,7 +127,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PYBNano.tex', 'PYB Nano 开发板快速指南 Documentation',
+    (master_doc, 'PYBNano.tex', 'PYB Nano DemoBoard Documentation',
      'ImHori', 'manual'),
 ]
 
