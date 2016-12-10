@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'PYB Nano 开发板快速指南'
+project = 'PYB Nano 开发板快速指南 '
 copyright = '2016, ImHori'
 author = 'ImHori'
 
