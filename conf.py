@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pybnano', 'PYB Nano 开发板快速指南 Documentation',
+    (master_doc, 'pybnano', 'PYB Nano 开发板快速指南',
      [author], 1)
 ]
 
@@ -148,7 +148,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PYBNano', 'PYB Nano 开发板快速指南 Documentation',
+    (master_doc, 'PYBNano', 'PYB Nano 开发板快速指南',
      author, 'PYBNano', 'One line description of project.',
      'Miscellaneous'),
 ]
