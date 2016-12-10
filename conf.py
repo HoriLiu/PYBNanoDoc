@@ -18,7 +18,9 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # import os
-# import sys
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -40,7 +42,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.txt'
+source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
