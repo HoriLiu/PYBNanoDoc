@@ -18,9 +18,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # import os
-import sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
+# import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -129,7 +127,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PYBNano.tex', 'PYB Nano 开发板快速指南',
+    (master_doc, 'PYBNano.tex', 'PYB Nano 开发板快速指南 ',
      'ImHori', 'manual'),
 ]
 
@@ -139,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pybnano', 'PYB Nano 开发板快速指南',
+    (master_doc, 'pybnano', 'PYB Nano 开发板快速指南 ',
      [author], 1)
 ]
 
@@ -150,7 +148,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PYBNano', 'PYB Nano 开发板快速指南',
+    (master_doc, 'PYBNano', 'PYB Nano 开发板快速指南 ',
      author, 'PYBNano', 'One line description of project.',
      'Miscellaneous'),
 ]
